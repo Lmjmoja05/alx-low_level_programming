@@ -8,11 +8,10 @@
  * Return: A pointer to the resulting string dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 
 {
-
-	int dlen  = 0, i;
+	int dlen = 0, i;
 
 	while (dest[dlen])
 	{
@@ -28,3 +27,4 @@ char *_strcat(char *dest, char *src);
 	dest[dlen] = '\0';
 	return (dest);
 }
+
